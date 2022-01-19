@@ -1,0 +1,29 @@
+{
+  "name": "shno",
+  "version": "1.0.0",
+  "description": "ewe dan sexs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start index.js --cron "* *5 * * *" && pm2 monit",
+    "restart": "pm2 reload index.js"
+  },
+  "author": "shno",
+  "dependencies": {
+    "@juliendu11/instagram-downloader": "^0.2.0",
+    "fs": "^0.0.1-security",
+    "lolis.life": "^4.0.0",
+    "nhentaidownloader": "^1.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shno-rim/wuih"
+  },
+  "bugs": {
+    "url": "https://github.com/Shno-rim/isues"
+  },
+  "homepage": "https://github.com/Shno-rim#readme"
+}
